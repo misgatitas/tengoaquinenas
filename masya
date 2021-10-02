@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Best dating worldwide</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.smrt-content.com/assets/1695/js/multilang_onestep.js"></script>
+    <script src="https://cdn.smrt-content.com/assets/1683/js/backoffer.js"></script>
+    <link rel="shortcut icon" href="https://cdn.smrt-content.com/assets/1497/other/favicon.ico" type="image/x-icon">
+<style>
+  a:-webkit-any-link {
+    text-decoration: none;
+}
+        body {
+    	height: 100%;
+   	width: auto;
+    	font-family: Geneva, Arial, Helvetica, sans-serif;
+   	background: #330043;
+  	background: linear-gradient(45deg, #db0049, #050505f2,#00f3ff);
+            -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+      }
+
+      .item {
+        position: relative;
+      }
+
+      .item img {
+	width:100%;
+        max-width: 600px;
+      }
+        .clickableIcons {
+        position: absolute;
+        width: 100px;
+      }
+
+      .scrollable {
+        margin: auto;
+	    display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .clickableIconsBottom {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        bottom: 3%;
+   		height: 35px;
+      }
+
+      .clickableIconsBottom img {
+        width: 50px;
+        cursor: pointer
+      }
+
+      .clickableIconsRight {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap-reverse;
+        position: absolute;
+        bottom: 8%;
+      }
+
+      .clickableIconsRight img {
+        cursor: pointer;
+        width: 40px
+      }
+
+      ul {
+        padding-right: 7px;
+        text-align: end;
+      }
+      ul:last-child {
+    	padding-bottom: 20px;
+      }
+      .soundsearch{
+      width:50px!important
+      }
+        .layer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 0;
+        opacity: 1;
+        background-image: linear-gradient(to top, rgb(0 113 113 / 60%), rgb(255 41 130 / 40%)), url(https://cdn.smrt-content.com/assets/1683/images/bg_bikini.jpg);
+        background-size:cover;
+        background-attachment: fixed;
+      }
+      .upperblock{
+    	position: absolute;
+    	z-index: 3;
+    	width: 100%;
+    	display: flex;
+    	place-content: space-evenly;
+	top: 0;
+	}
+        .foryou{
+    	color: white;
+	}
+      .following{
+    	color: #ffffff9e;
+	}
+
+     .upperblock img{
+        width:30px;
+    	margin-top: 25%;
+        position: relative;
+	}
+      .txtblock{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background: #00000045;
+        color: white;
+        position: absolute;
+        z-index: 0;
+        top: 18%;
+        width: 100%;
+      }
+  .content-btn-block{
+      padding-bottom: 25px;
+    padding: 5px;
+    background: white;
+    width: 175px;
+    border-radius: 5px;
+    margin: auto;
+    color:black;
+    margin-bottom: 20px;
+    cursor:pointer  }
+
+  @media screen and (max-width:320px){
+  .clickableIconsBottom {
+    bottom: 4%;
+    height: 25px;
+}
+  }
+  @media screen and (max-width:425px){
+    .widthreg{
+        width: 65%;
+   		margin: auto;
+    }
+  }
+      @media screen and (min-width:768px){
+        .scrollable {
+          width: 100%;
+    	  justify-content: center;
+        }
+        .item {
+        width: 555px;
+        height: 955px;
+        }
+        .txtblock{
+        top: 38%;
+        }
+          .clickableIconsBottom {
+          bottom: 5%;
+          height: 50px;
+      }
+	} 
+
+  </style>
+  <body>
+    <div class="layer"></div>
+    <div class="scrollable" style="">
+      <div class="item item1">
+	<div class="upperblock">
+	  <a> <img src="https://cdn.smrt-content.com/assets/1683/images/live-telecast-1.svg"></a>
+	   <p class="following">Following | <span class="foryou">For You</span></p>	
+	  <a> <img src="https://cdn.smrt-content.com/assets/1683/images/loop_full.svg"></a>
+	</div>       
+        <img src="https://cdn.smrt-content.com/assets/1695/images/1.jpg" >
+        <div class="txtblock">
+        <div class="widthreg">
+        <div>
+          <p class="content-title">YOU DO NOT NEED TO PAY FOR DATING.THIS SITE IS FREE</p>                
+        </div>
+        <p style="color:white;padding: 0; margin-block-start: 0em;" class="content-subtitle">
+          I confirm that I am 18 years of age or older.                  
+        </p>
+        <div class="content-btn-block">
+          <a class="btn submit-btn tr-submit-button btnText" id="agreeclick" data-id="agreeclick">
+            I am 18 or older                        
+          </a>
+        </div>
+		</div>
+       </div>
+
+        <div class="clickableIconsBottom">
+          <img class="home" src="https://cdn.smrt-content.com/assets/1683/images/home_full.svg">
+          <img class="discover" src="https://cdn.smrt-content.com/assets/1683/images/loop_full.svg">
+          <img class="add" src="https://cdn.smrt-content.com/assets/1683/images/add_full.svg">
+          <img class="inbox" src="https://cdn.smrt-content.com/assets/1683/images/chat__full.svg">
+          <img class="profile" src="https://cdn.smrt-content.com/assets/1683/images/user2_full.svg">
+        </div>
+        <div class="clickableIconsRight">
+            <ul>
+              <img class="authorProfile" src="https://cdn.smrt-content.com/assets/1683/images/user__full.svg">
+            </ul>
+            <ul>
+              <img class="like" src="https://cdn.smrt-content.com/assets/1683/images/heart_full.svg">
+            </ul>
+            <ul>
+              <img class="comment" src="https://cdn.smrt-content.com/assets/1683/images/bubble_full.svg">
+            </ul>
+            <ul>
+              <img class="share" src="https://cdn.smrt-content.com/assets/1683/images/share_full.svg">
+            </ul>
+            <ul>
+              <img class="soundsearch" src="https://cdn.smrt-content.com/assets/1683/images/disk.gif">
+	   </ul>
+        </div>
+      </div>
+      </div>
+    <script>
+      $("body").click(function() {
+        window.location = "https://smrtsecure-ad.com/smclick?a=144693&c=279778&o=108188&oc=152611&mt=26&svi=CgAzYmRjMjEwNjFmMGE0NDNkOTYxNzNjZDYzNzFiMDli5gG0wbGUhV8CEAOIrwEEAQXOGgYJB%2FbRHQiG7QIJcuc%3D&so=108188&rca=1_0&s1=convers&us=5930a9c66aa0481c81a54a94f409835e&req=https%3A%2F%2Fsmrtsecure-ad.com%2Fsmartlink%2F%3Fa%3D144693%26sm%3D11204%26mt%3D26%26s1%3Dconvers";
+      });
+    </script>
+    <script type="text/javascript">
+      /*<![CDATA[*/    (function(w){
+        w.backOfferUrl = 'https://smrtsecure-ad.com/smartlink?a=144693&sm=11204&sl=8&sbp=14637&mt=26&rca=1_0&s1=convers&req=https%3A%2F%2Fsmrtsecure-ad.com%2Fsmartlink%2F%3Fa%3D144693%26sm%3D11204%26mt%3D26%26s1%3Dconvers'    }
+                        (window));
+      /*]]>*/  
+    </script>
+</body>
+</html>
